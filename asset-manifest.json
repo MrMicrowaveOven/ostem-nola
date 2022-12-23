@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ostem-nola/static/css/main.3969c0e0.css",
+    "main.js": "/ostem-nola/static/js/main.2ae84e52.js",
+    "static/js/787.e6591c4f.chunk.js": "/ostem-nola/static/js/787.e6591c4f.chunk.js",
+    "index.html": "/ostem-nola/index.html",
+    "main.3969c0e0.css.map": "/ostem-nola/static/css/main.3969c0e0.css.map",
+    "main.2ae84e52.js.map": "/ostem-nola/static/js/main.2ae84e52.js.map",
+    "787.e6591c4f.chunk.js.map": "/ostem-nola/static/js/787.e6591c4f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3969c0e0.css",
+    "static/js/main.2ae84e52.js"
+  ]
+}
