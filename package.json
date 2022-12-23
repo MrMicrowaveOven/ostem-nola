@@ -1,7 +1,7 @@
 {
   "name": "ostem-nola",
   "version": "0.1.0",
-  "homepage": "https://mrmicrowaveoven.github.io/ostem-nola",
+  "homepage": "https://ostemnola.com/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
