@@ -19,9 +19,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.coming-soon-text {
+  font-size: 40pt;
 }
 
 @keyframes App-logo-spin {
