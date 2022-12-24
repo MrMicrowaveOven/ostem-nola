@@ -3,7 +3,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <header className="App-filler">
         <p className="coming-soon-text">oSTEM NOLA: Coming soon!</p>
         <img src="./fleur.jpeg" className="App-logo" alt="logo" />
       </header>

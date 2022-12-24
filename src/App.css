@@ -9,11 +9,11 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin 20s infinite linear;
   }
 }
 
-.App-header {
+.App-filler {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -21,7 +21,7 @@
   align-items: center;
   justify-content: space-evenly;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
 }
 
 .coming-soon-text {
@@ -34,5 +34,25 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+.App-filler {
+  background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+  animation: glowing 20s linear infinite;
+  background-size: 400%;
+}
+
+@keyframes glowing {
+  0% {
+    background-position: 0 0;
+  }
+
+  50% {
+    background-position: 400% 0;
+  }
+
+  100% {
+    background-position: 0 0;
   }
 }
