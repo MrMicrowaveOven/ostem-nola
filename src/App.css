@@ -2,33 +2,30 @@
   text-align: center;
 }
 
-.App-logo {
+.app-image {
   height: 40vmin;
-  pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin 20s infinite linear;
+  .spin {
+    animation: spin-animation 2s infinite;
   }
 }
 
-.App-filler {
-  background-color: #282c34;
+.app-filler {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
   font-size: calc(10px + 2vmin);
-  color: black;
 }
 
 .coming-soon-text {
   font-size: 40pt;
 }
 
-@keyframes App-logo-spin {
+@keyframes spin-animation {
   from {
     transform: rotate(0deg);
   }
@@ -37,7 +34,7 @@
   }
 }
 
-.App-filler {
+.app-filler {
   background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
   animation: glowing 20s linear infinite;
   background-size: 400%;

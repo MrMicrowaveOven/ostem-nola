@@ -1,14 +1,9 @@
 import './App.css';
+import AppPlaceholder from './sections/AppPlaceholder'
 
-function App() {
-  return (
+const App = () =>
     <div className="App">
-      <header className="App-filler">
-        <p className="coming-soon-text">oSTEM NOLA: Coming soon in 2023!</p>
-        <img src="./fleur.jpeg" className="App-logo" alt="logo" />
-      </header>
+      <AppPlaceholder />
     </div>
-  );
-}
 
 export default App;
