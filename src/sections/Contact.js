@@ -89,7 +89,7 @@ export const Contact = () => {
           />
           <br/>
           <div className="confirmation-section">
-            <button className="contact-button" type='submit' disabled={formValid ? "" : "disabled"}>Submit</button>
+            <button className="contact-button" type='submit' disabled={formValid && emailSentStatus === null ? "" : "disabled"}>Submit</button>
             <div className={emailSentStatus === true ? "email-confirmation-message" : "hidden"}>Email sent!</div>
             <div className={emailSentStatus === false ? "email-confirmation-message" : "hidden"}>
             Sorry, looks like something went wrong.
