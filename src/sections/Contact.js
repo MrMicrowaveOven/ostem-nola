@@ -44,11 +44,11 @@ export const Contact = () => {
         <div className="contact-info-title">Contact Info</div>
         <div className="contact-info-text">Currently getting started in New Orleans, LA</div>
         <div className="contact-icons">
-          <a href="https://www.linkedin.com/in/ostem-nola-9a86b4264/" target="_blank">
-            <img src={LinkedInLogo} className="contact-icon"/>
+          <a href="https://www.linkedin.com/in/ostem-nola-9a86b4264/" target="_blank" rel="noreferrer">
+            <img src={LinkedInLogo} className="contact-icon" alt="linkedin logo"/>
           </a>
-          <a href="https://www.facebook.com/groups/3551595705161305/" target="_blank">
-            <img src={FacebookLogo} className="contact-icon"/>
+          <a href="https://www.facebook.com/groups/3551595705161305/" target="_blank" rel="noreferrer">
+            <img src={FacebookLogo} className="contact-icon" alt="facebook logo"/>
           </a>
         </div>
         <div className="contact-info-text">Email us at&nbsp;
