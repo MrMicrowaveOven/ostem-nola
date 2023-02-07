@@ -52,7 +52,7 @@ export const Contact = () => {
           </a>
         </div>
         <div className="contact-info-text">Email us at&nbsp;
-          <a href = "mailto: benj@zagorski.com">contact@ostemnola.org</a>
+          <a href = "mailto: contact@ostemnola.org">contact@ostemnola.org</a>
         </div>
       </div>
       <div className="contact-form">
@@ -94,7 +94,7 @@ export const Contact = () => {
             <div className={emailSentStatus === false ? "email-confirmation-message" : "hidden"}>
             Sorry, looks like something went wrong.
             <br/>
-            Try emailing me at <a href = "mailto: benj@zagorski.com">Benj@Zagorski.com</a>
+            Try emailing us at <a href = "mailto: contact@ostemnola.org">contact@ostemnola.org</a>
             </div>
           </div>
         </form>
