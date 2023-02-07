@@ -1,7 +1,8 @@
 import { useState } from 'react';
 import { send } from 'emailjs-com';
 import LinkedInLogo from './../icons/linkedin.png'
-import FacebookLogo from './../icons/facebook.jpg'
+import FacebookLogo from './../icons/facebook.png'
+import './contact.css';
 
 export const Contact = () => {
   const [emailInfo, setEmailInfo] = useState({
@@ -41,8 +42,7 @@ export const Contact = () => {
     <div className="contact-body">
       <div className="contact-info">
         <div className="contact-info-title">Contact Info</div>
-        <div className="contact-info-text">Currently residing in New Orleans, LA</div>
-        <div className="contact-info-text">(714)809-9426</div>
+        <div className="contact-info-text">Currently getting started in New Orleans, LA</div>
         <div className="contact-icons">
           <a href="https://www.linkedin.com/in/ostem-nola-9a86b4264/" target="_blank">
             <img src={LinkedInLogo} className="contact-icon"/>
@@ -51,8 +51,8 @@ export const Contact = () => {
             <img src={FacebookLogo} className="contact-icon"/>
           </a>
         </div>
-        <div className="contact-info-text">Email me at&nbsp;
-          <a href = "mailto: benj@zagorski.com">Benj@Zagorski.com</a>
+        <div className="contact-info-text">Email us at&nbsp;
+          <a href = "mailto: benj@zagorski.com">contact@ostemnola.org</a>
         </div>
       </div>
       <div className="contact-form">
