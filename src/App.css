@@ -4,6 +4,7 @@
 
 .app-image {
   height: 40vmin;
+  margin-bottom: 30px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -34,7 +35,7 @@
   }
 }
 
-.app-filler {
+.App {
   background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
   animation: glowing 20s linear infinite;
   background-size: 400%;
