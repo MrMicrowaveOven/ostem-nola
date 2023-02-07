@@ -1,0 +1,66 @@
+.contact-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .contact-info-title, .contact-form-title {
+    font-size: 25px;
+    padding-bottom: 5px;
+    border-bottom: black solid 2px;
+    width: 140px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-info, .contact-form {
+    padding: 40px;
+    padding-top: 30px;
+  }
+  
+  .contact-info-text {
+    margin: 10px;
+  }
+  
+  .contact-form-fields {
+    padding-left: 10px;
+  }
+  
+  .contact-icon {
+    width: 100px;
+    height: 100px;
+    margin: 15px;
+  }
+  
+  .contact-text-field {
+    margin: 5px;
+    font-size: 20px;
+    width: 300px;
+  }
+  
+  .contact-textarea-field {
+    margin: 5px;
+    font-size: 20px;
+    width: 300px;
+  }
+  
+  .confirmation-section {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .contact-button {
+    font-size: 20px;
+    margin-left: 5px;
+    height: 30px;
+  }
+  
+  .email-confirmation-message {
+    margin-left: 20px;
+    line-height: 30px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
