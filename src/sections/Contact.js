@@ -3,6 +3,7 @@ import { send } from 'emailjs-com';
 import LinkedInLogo from './../icons/linkedin.png'
 import FacebookLogo from './../icons/facebook.png'
 import './contact.css';
+import './contactMobile.css';
 
 export const Contact = () => {
   const [emailInfo, setEmailInfo] = useState({

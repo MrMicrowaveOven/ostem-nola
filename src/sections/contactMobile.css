@@ -1,0 +1,27 @@
+@media (max-width: 750px) {
+    .contact-body {
+        flex-direction: column;
+        align-items: center;
+        /* margin-left: 35px; */
+    }
+
+    .contact-info, .contact-form {
+        padding: 0px;
+        padding-top: 15px;
+    }
+
+    .contact-form-fields {
+        margin-bottom: 20px;
+    }
+
+    .contact-info-title {
+        width: 250px;
+        margin: auto;
+    }
+
+    .contact-form-title {
+        width: 225px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+}
